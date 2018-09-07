@@ -3,7 +3,7 @@
 def countdown(number)
   while number > 0 
     numberString = number.to_i
-    puts "#{number} SECOND(S)"
+    puts "#{numberString} SECOND(S)"
     number = number - 1
   end
   returnvalue = "HAPPY NEW YEAR!"
