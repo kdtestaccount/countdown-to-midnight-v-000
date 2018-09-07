@@ -6,5 +6,6 @@ def countdown(number)
     number = number - 1
     sleep 1
   end
-  "HAPPY NEW YEAR!"
+  returnvalue = "HAPPY NEW YEAR!"
+  returnvalue
 end
