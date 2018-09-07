@@ -2,7 +2,7 @@
 
 def countdown(number)
   while number > 0 
-    numberString = number.i
+    numberString = number.to_i
     puts "#{number} SECOND(S)"
     number = number - 1
   end
