@@ -2,7 +2,7 @@
 
 def countdown(number)
   until number == 0 
-    puts "#{number}"
+    puts "#{number} SECOND(S)"
     number = number - 1
     sleep 1
   end
